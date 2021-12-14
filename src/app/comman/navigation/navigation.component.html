@@ -1,0 +1,103 @@
+<div class="container-fluid" id="navbar">
+  <div>
+    <img src="/assets/images/AerosiftLogo.png" class="img-fluid" alt="" />
+  </div>
+  <ul id="a">
+    <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+    <li>
+      <a routerLink="/asanalysis" routerLinkActive="active"
+        >Aircraft Stress Analysis
+      </a>
+    </li>
+    <li>
+      <a routerLink="/training-ind" routerLinkActive="active"
+        >Trainings for Individuals
+      </a>
+    </li>
+    <li>
+      <a routerLink="/training-crop" routerLinkActive="active"
+        >Trainings for Corporates
+      </a>
+    </li>
+    <li>
+      <a routerLink="/std-projects" routerLinkActive="active"
+        >Student Projects
+      </a>
+    </li>
+    <li><a routerLink="/toolbox" routerLinkActive="active">Toolbox </a></li>
+    <li><a routerLink="/blog" routerLinkActive="active">Blog </a></li>
+    <li><a routerLink="/contact" routerLinkActive="active">Contact </a></li>
+  </ul>
+</div>
+
+<div fxHide.gt-sm class="mdbnavbar">
+  <mdb-navbar
+    SideClass="navbar navbar-expand-lg fixed-top navbar-dark cyan"
+    [containerInside]="false"
+  >
+    <mdb-navbar-brand
+      ><a class="navbar-brand">
+        <img
+          src="/assets/images/AerosiftLogo.png"
+          alt=""
+          class="image img-fluid"
+        /> </a
+    ></mdb-navbar-brand>
+    <links>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link waves-light" routerLink="/home" mdbWavesEffect
+            >Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link waves-light"
+            routerLink="/asanalysis"
+            mdbWavesEffect
+            >Aircraft Stress Analysis
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link waves-light"
+            routerLink="/training-ind"
+            mdbWavesEffect
+            >Trainings for Individuals
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link waves-light"
+            routerLink="/training-crop"
+            mdbWavesEffect
+            >Trainings for Corporates
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link waves-light"
+            routerLink="/std-projects"
+            mdbWavesEffect
+            >Student Projects
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" routerLink="/toolbox" mdbWavesEffect
+            >Toolbox
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" routerLink="/blog" mdbWavesEffect
+            >Blog
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" routerLink="/contact" mdbWavesEffect
+            >Contact
+          </a>
+        </li>
+      </ul>
+    </links>
+  </mdb-navbar>
+</div>

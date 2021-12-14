@@ -1,0 +1,58 @@
+.card {
+  margin-top: 25px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: -5px 5px 10px rgba(230, 230, 230, 0.2),
+    5px -5px 10px rgba(230, 230, 230, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(230, 230, 230, 0.9),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3),
+    inset -1px -1px 2px rgba(230, 230, 230, 0.5);
+}
+
+p {
+  align-items: center;
+  text-align: justify;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Playfair Display", serif;
+}
+.p1 {
+  line-height: 40px;
+}
+.p2 {
+  line-height: 34px;
+}
+.p3 {
+  line-height: 29px;
+  margin-top: 30px;
+}
+.p4 {
+  line-height: 40px;
+  margin-top: 30px;
+}
+
+@media (max-width: 699px) {
+  p {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: none;
+  }
+  .p1 {
+    line-height: 30px;
+  }
+  .p2 {
+    line-height: 24px;
+  }
+  .p4 {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 399px) {
+  h3 {
+    font-size: 16px;
+  }
+}
