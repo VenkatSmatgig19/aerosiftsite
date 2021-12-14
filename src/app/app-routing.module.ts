@@ -8,7 +8,7 @@ import { TrainingCorpComponent } from './trainings/training-corp/training-corp.c
 import { TrainingIndComponent } from './trainings/training-ind/training-ind.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'asanalysis', component: ASAnalysisComponent },
   { path: 'training-ind', component: TrainingIndComponent },
