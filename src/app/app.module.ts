@@ -11,6 +11,8 @@ import { NavigationComponent } from './comman/navigation/navigation.component';
 import { ToolboxComponent } from './comman/toolbox/toolbox.component';
 import { HomeComponent } from './comman/home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { BlogComponent } from './comman/blog/blog.component';
+import { ContactComponent } from './comman/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     NavigationComponent,
     ToolboxComponent,
     HomeComponent,
+    BlogComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

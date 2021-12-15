@@ -1,0 +1,9 @@
+.comming {
+  height: 300px;
+}
+
+@media (max-width: 760px) {
+  .comming {
+    width: 350px;
+  }
+}

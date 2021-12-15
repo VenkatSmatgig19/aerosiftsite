@@ -24,14 +24,16 @@ ul.li {
 }
 li {
   font-size: 24px;
-  font-family: "Merriweather", serif;
+  /* font-family: "Merriweather", serif; */
+  font-family: "Arvo", serif;
   letter-spacing: 0.02rem;
   line-height: 29px;
   margin-top: 30px;
 }
 .text {
   font-size: 24px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  font-family: "Arvo", serif;
   margin-top: 100px;
 }
 .contact {
@@ -57,9 +59,11 @@ h4 {
 
 .footer {
   text-align: center;
-  font-size: 24px;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Arvo", serif;
   color: white;
+  margin-top: 20px;
 }
 @media (max-width: 1024px) {
   .col-lg-5 {
@@ -98,7 +102,7 @@ h4 {
 
 @media (max-width: 399px) {
   .footer {
-    font-size: 1rem;
+    font-size: 15px;
   }
   .bloglist li {
     margin-left: 5px;
